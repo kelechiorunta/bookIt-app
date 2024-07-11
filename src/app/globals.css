@@ -31,3 +31,23 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .active {
+    background: rgba(13, 111, 202, 0.2);
+    border-radius: 24px;
+    border: 1px soild rgba(13, 111, 202, 0.2);
+    padding: 8px 12px;
+  }
+  .bookit_section{
+    z-index: 10;
+  }
+  .landing_background{
+    background-image: url('../../public/imgs/background.png');
+    background-position-y: 0%;
+    background-size: cover;
+    /* background-position: center; */
+    object-fit:cover
+    
+}
+}

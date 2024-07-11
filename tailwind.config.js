@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens:{
+        "maximum-width" : "1704px",
+        "maximum-height" : "1704px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
